@@ -1,0 +1,1 @@
+docker run -d -p 80:80 --restart always -v ~/Documents/data/db/:/js_flask/db/ -v ~/Documents/data/images/:/js_flask/static/pictures/ maurovictor/js_placas:0.0.0.3
